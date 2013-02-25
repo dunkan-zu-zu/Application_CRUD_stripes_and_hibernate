@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="stripes">
+    <CLASSES>
+      <root url="jar://D:/LIB/stripes-1.5.7 (1)/stripes-1.5.7/examples/webapp/web/WEB-INF/lib/cos.jar!/" />
+      <root url="jar://D:/LIB/stripes-1.5.7 (1)/stripes-1.5.7/examples/webapp/web/WEB-INF/lib/log4j-1.2.15.jar!/" />
+      <root url="jar://D:/LIB/stripes-1.5.7 (1)/stripes-1.5.7/examples/webapp/web/WEB-INF/lib/standard.jar!/" />
+      <root url="jar://D:/LIB/stripes-1.5.7 (1)/stripes-1.5.7/examples/webapp/web/WEB-INF/lib/mail.jar!/" />
+      <root url="jar://D:/LIB/stripes-1.5.7 (1)/stripes-1.5.7/examples/webapp/web/WEB-INF/lib/jstl.jar!/" />
+      <root url="jar://D:/LIB/stripes-1.5.7 (1)/stripes-1.5.7/examples/webapp/web/WEB-INF/lib/commons-logging.jar!/" />
+      <root url="jar://D:/LIB/stripes-1.5.7 (1)/stripes-1.5.7/examples/webapp/web/WEB-INF/lib/stripes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://D:/LIB/stripes-1.5.7 (1)/stripes-1.5.7/examples/src" />
+    </SOURCES>
+  </library>
+</component>

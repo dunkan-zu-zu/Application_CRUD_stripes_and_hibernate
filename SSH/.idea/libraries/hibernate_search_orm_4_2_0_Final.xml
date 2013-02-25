@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="hibernate-search-orm-4.2.0.Final">
+    <CLASSES>
+      <root url="jar://D:/LIB/hibernate-search-4.2.0.Final-dist (1)/hibernate-search-4.2.0.Final/dist/hibernate-search-orm-4.2.0.Final.jar!/" />
+      <root url="jar://D:/LIB/hibernate-search-4.2.0.Final-dist (1)/hibernate-search-4.2.0.Final/dist/hibernate-search-engine-4.2.0.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
