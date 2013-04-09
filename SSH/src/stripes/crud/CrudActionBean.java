@@ -44,7 +44,7 @@ public class CrudActionBean implements ActionBean {
 
     @DefaultHandler
     public ForwardResolution view() throws SQLException {
-        String str="</a>";
+        String str="";
 
         List<Student> studs = Factory.getInstance().getStudentDAO().getAllStudents();
 
@@ -52,8 +52,8 @@ public class CrudActionBean implements ActionBean {
         for(int i = 0; i < studs.size(); ++i) {
 
             str+="Имя студента : " + studs.get(i).getName() + ", Возраст : " + studs.get(i).getAge()+ " Id:"+studs.get(i).getId()+
-          "<form action=\"/crud/Delete.action\" method=\"get\"> <button type=\"submit\" name=\"remove\" value=\""+studs.get(i).getId()+"\">DELETE</button>"+"</form>"+
-                    "<form action=\"/crud/PageUpdate.action\" method=\"get\"> <button type=\"submit\" name=\"update_id\" value=\""+studs.get(i).getId()+"\">UPDATE</button>"+"</form>"+"<br>";
+          "<form action=\"/crud/Delete.action\" method=\"post\"> <button type=\"submit\" name=\"remove\" value=\""+studs.get(i).getId()+"\">DELETE</button>"+"</form>"+
+                    "<form action=\"/crud/PageUpdate.action\" method=\"post\"> <button type=\"submit\" name=\"update_id\" value=\""+studs.get(i).getId()+"\">UPDATE</button>"+"</form>"+"<br>";
 
         }
         result=str;

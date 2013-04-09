@@ -23,6 +23,8 @@
     <orderEntry type="library" name="stripes" level="project" />
     <orderEntry type="library" name="mysql-connector-java-5.1.22-bin" level="project" />
     <orderEntry type="library" name="hibernate" level="project" />
+    <orderEntry type="library" name="spring-web-2.0.4.jar" level="project" />
+    <orderEntry type="library" name="spring-web-2.0.4" level="project" />
   </component>
 </module>
 

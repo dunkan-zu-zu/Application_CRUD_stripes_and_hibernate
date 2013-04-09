@@ -14,7 +14,7 @@
 </head>
 <body>
 
-<stripes:link beanclass="stripes.crud.CrudActionBean" focus="">
+<stripes  beanclass="stripes.crud.CrudActionBean" focus="">
 
 <table align="center"><tr><td><h1>CRUD</h1></tr>
 <tr>
@@ -29,7 +29,7 @@
 </tr>
 
 </table>
-</stripes:link>
+</stripes >
 <table align="center">
     <tr>
         <td>
